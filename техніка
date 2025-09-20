@@ -1,55 +1,47 @@
 <html>
     <head>
-        <title>BitMarket</title>
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <img src="/uploads/2021/02/logo_0_1613588860.svg">
-            <a class="button" href="">Знижки</a>
         </header>
         <nav>
-            <a class="nav-link" href="">Каталог</a>
-            <a class="nav-link" href="">Оптом</a>
-            <a class="nav-link" href="">Доставка</a>
-            <a class="nav-link" href="">Повернення товару</a>
+            <a href="">Каталог</a>
+            <a href="">Оптом</a>
+            <a href="">Доставка</a>
         </nav>
-        <main>
-            <h1>Професіонали радять</h1>
-            <section class="info">
-                <article>
-                    <h2>Лептоп для відпочинку</h2>
-                    <img src="data:image/jpeg;base64,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" width="400px" height="300px"/>
-                    <p>acer найкращий варіант для тих хто працює вдома на відпочинку і навіть на дачі.Бо він легкий має багато пам'яті і також зручний щоб тримати на колінах столі і навіть на коврику.</p>
-                    <a class="article-but" href="">Детальніше</a>
-                </article>
-                <article>
-                    <h2>Як вибрати навушники</h2>
-                    <img src="data:image/jpeg;base64,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" width="330px" height="300px"/>
-                    <p> В нас найкращі наушники в усьому світі кожен хоче їх купити. Відмінна звуко ізоляція. є багато кнопок для налаштування наушників. Тількт цього місяця "Вересня" діє акція купляєш 2 наушника і отримуєш знижку -50%
-                    </p>
-                    <a class="article-but" href="">Детальніше</a>
-                </article>
-                <article>
-                    <h2>Телефон мрії</h2>
-                    <img src="/uploads/2021/02/mobile-phone-1875813_1920_0_1613586011.jpg" width="400px" height="300px"/>
-                    <p>ці телефони найкращі в свому роді.На них 512 гігабайт пам'яті.Купляйте тільки в нашої компанії тут найкращі телефони без обману не з китая.
-                        переклад на китайську мову:这些手机是同类手机中最好的。它们有 512 GB 的内存。只从我们公司购买最好的手机,不要作弊,不要从中国购买。</p>
-                    <a class="article-but" href="">Детальніше</a>
-                </article>
-                <article>
-                    <h2>Техніка для всього</h2>
-                    <img src="/uploads/2021/02/laptop-1483974_1920_0_1613586010.jpg" width="400px" height="300px"/>
-                    <p>І Весь світ хоче цю техніку...</p>
-                    <a class="article-but" href="">Детальніше</a>
-                </article>
-            </section>
-            <img src="/uploads/2021/02/mobile-phone-1419275_1920_0_1613586010.jpg" width="960" height="270"/>
-        </main>
-        <footer>
-            <a href=""><img src="/uploads/2021/02/icon-set-1142000_1280%201_0_1613586391.png" width="80px" height="80px"></a>
-            <a href=""><img src="/uploads/2021/02/instagram-3288419_1280%201_0_1613586391.png" width="80px" height="80px"></a>
-            <p><b>Напиши - отримай <br/> промокод!</b></p> 
-        </footer>
-    </body>
+         <main>
+    <div class="card">
+      <h3>комп’ютери</h3>
+      <img src="https://cdn.pixabay.com/photo/2022/08/13/05/57/social-media-7382943_1280.jpg">
+      <p>у нас є ноутбуки</p>
+      <a href="https://learn.logikaschool.com/lesson?module=4&lesson=31771&task=74542&level=13" class="btn">Кнопка</a>
+    </div>
+    <div class="card">
+      <h3>телефони</h3>
+      <img src="/uploads/2021/02/mobile-phone-1875813_1920_0_1613586011.jpg">
+      <p>ще в наявності є телефони</p>
+      <a href="https://learn.logikaschool.com/lesson?module=4&lesson=31771&task=74542&level=12" class="btn">Кнопка</a>
+    </div>
+    <div class="card">
+      <h3>планшети</h3>
+      <img src="https://cdn.pixabay.com/photo/2014/08/30/15/53/tablet-431647_1280.png">
+      <p>у нас є планшети</p>
+      <a href="https://learn.logikaschool.com/lesson?module=4&lesson=31771&task=74542&level=14" class="btn">Кнопка</a>
+    </div>
+    <div class="card">
+      <h3>телевізори</h3>
+      <img src="/uploads/2021/02/laptop-1483974_1920_0_1613586010.jpg">
+      <p>у нас є телевізори</p>
+      <a href="https://learn.logikaschool.com/lesson?module=4&lesson=31771&task=74542&level=15" class="btn">Кнопка</a>
+    </div>
+  </main>
+
+  <footer>
+    <img src=" ">
+    <p>найкраща техніка це є рай для роботи і для переглядання серіалів, фільмів, мультфільмів</p>
+  </footer>
+</body>
 </html>
